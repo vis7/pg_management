@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'phonenumber_field',
 
     # Our module
-    'accounts'
+    'accounts',
+    'pg'
 ]
 
 MIDDLEWARE = [

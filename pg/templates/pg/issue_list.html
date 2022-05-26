@@ -1,0 +1,3 @@
+{% for issue in issue_list %}
+    <a href={% url 'issue_detail' pk=issue.pk %}>{{issue}} <br>
+{% endfor %}

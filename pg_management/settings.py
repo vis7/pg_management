@@ -136,3 +136,7 @@ AUTH_USER_MODEL = 'accounts.CUser'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+STATIC_URL = '/static/'
+STATIC_ROOT = '/var/www/pg_management/static'
+STATICFILES_DIR = [BASE_DIR / 'static']

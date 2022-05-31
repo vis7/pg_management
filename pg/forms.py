@@ -5,7 +5,7 @@ from accounts.models import CUser
 class IssueForm(forms.ModelForm):
     class Meta:
         model = Issue
-        fields = ['name', 'description']
+        fields = ['name', 'description', 'issue_type']
 
     # def form_valid(self, form):
     #     form = form.save(commit=False)

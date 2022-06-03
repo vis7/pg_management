@@ -20,10 +20,7 @@ jobs:
         remote_host: ${{ secrets.SSH_KNOWN_HOSTS }}
         remote_user: ubuntu
         remote_key: "${{ secrets.SSH_PRIVATE_KEY }}"
-
-    - name: run deployment commands
-      run:
-        sh deployment.sh
+        command: /bin/sh ./deployment.sh
 
         # - name: Create SSH key
     #   run: |
